@@ -28,8 +28,8 @@ const Footer = () => {
   </Link>
 
   <p className="text-primary-foreground/60 text-sm leading-relaxed mt-0 max-w-xs ml-5">
-    Dedicated to environmental restoration, tree plantation,
-    and building sustainable communities across India.
+    Building a greener future through environmental restoration, tree plantation,
+  and sustainable community development across India.
   </p>
 </div>
 
