@@ -45,7 +45,7 @@ const TreePlantationCTA = () => {
             <Phone className="w-4 h-4" />
             <span className="font-body">
               Questions? Call us at{" "}
-              <span className="font-semibold text-foreground">+91 XXXX XXXXXX</span>
+              <span className="font-semibold text-foreground">+91 9896987485</span>
             </span>
           </div>
         </motion.div>

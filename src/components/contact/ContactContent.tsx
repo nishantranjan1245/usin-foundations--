@@ -19,7 +19,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Call Us",
-    details: ["+91 XXXX XXXXXX"],
+    details: ["+91 9896987485"],
   },
   {
     icon: Clock,

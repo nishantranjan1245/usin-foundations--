@@ -49,7 +49,7 @@ const DonateCTA = () => {
             </a>
             <span className="flex items-center gap-2">
               <Phone className="w-4 h-4" />
-              +91 XXXX XXXXXX
+              +91 9896987485
             </span>
           </div>
         </motion.div>

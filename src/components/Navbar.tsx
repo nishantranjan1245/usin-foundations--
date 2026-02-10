@@ -42,11 +42,11 @@ const Navbar = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 group">
-            <div className="flex items-center justify-center w-14 h-14 rounded-full overflow-hidden">
-              <img src={usinLogo} alt="USIN Foundation Logo" className="w-14 h-14 object-contain" />
+          <Link to="/" className="flex items-center gap-1 group">
+            <div className="flex items-center justify-center w-20 h-20 rounded-full overflow-hidden">
+              <img src={usinLogo} alt="USIN Foundation Logo" className="w-20 h-20 object-contain" />
             </div>
-            <span className="font-display text-lg font-bold leading-tight text-gradient-green">
+            <span className="font-display text-2xl font-bold leading-tight text-gradient-green">
               USIN Foundation
             </span>
           </Link>

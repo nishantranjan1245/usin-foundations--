@@ -8,23 +8,34 @@ const Footer = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-2 lg:grid-cols-5 gap-10">
           {/* Brand */}
-          <div className="lg:col-span-1">
-            <Link to="/" className="flex items-center gap-2 mb-4">
-              <div className="flex items-center justify-center w-14 h-14 rounded-full overflow-hidden">
-                <img src={usinLogo} alt="USIN Foundation Logo" className="w-14 h-14 object-contain" />
-              </div>
-              <span className="font-display text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-gold to-accent">
-                USIN Foundation
-              </span>
-            </Link>
-            <p className="text-primary-foreground/60 text-sm leading-relaxed mb-6">
-              Dedicated to environmental restoration, tree plantation, 
-              and building sustainable communities across India.
-            </p>
-          </div>
+          <div className="lg:col-span-1 flex flex-col -mt-6">
+
+  <Link
+    to="/"
+    className="flex items-center gap-1 mb-2 whitespace-nowrap"
+  >
+    <div className="flex items-center justify-center w-20 h-20 rounded-full overflow-hidden flex-shrink-0">
+      <img
+        src={usinLogo}
+        alt="USIN Foundation Logo"
+        className="w-full h-full object-contain"
+      />
+    </div>
+
+    <span className="font-display text-2xl font-bold leading-none bg-clip-text text-transparent bg-gradient-to-r from-gold to-accent">
+      USIN Foundation
+    </span>
+  </Link>
+
+  <p className="text-primary-foreground/60 text-sm leading-relaxed mt-0 max-w-xs ml-5">
+    Dedicated to environmental restoration, tree plantation,
+    and building sustainable communities across India.
+  </p>
+</div>
+
 
           {/* Quick Links */}
-          <div className="lg:pl-8">
+          <div className="lg:pl-20">
             <h4 className="font-display font-semibold text-base mb-4">
               Quick Links
             </h4>
@@ -121,7 +132,7 @@ const Footer = () => {
               <li className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-gold flex-shrink-0" />
                 <span className="text-sm text-primary-foreground/60">
-                  +91 XXXX XXXXXX
+                  +91 9896987485
                 </span>
               </li>
             </ul>
