@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import { Cookie, Shield, Settings, BarChart3, Clock, ToggleRight, Globe, Mail } from "lucide-react";
+import cookieTeamImg from "@/assets/cookie-policy-team.jpg";
+import cookiePrivacyImg from "@/assets/cookie-policy-privacy.jpg";
 
 const sections = [
   {
@@ -93,6 +95,22 @@ const CookiePolicyContent = () => {
             <br />
             <strong className="text-foreground">Last Updated:</strong> February 1, 2026
           </p>
+        </motion.div>
+
+        {/* Image Banner */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="max-w-4xl mx-auto mb-16 grid md:grid-cols-2 gap-6"
+        >
+          <div className="rounded-2xl overflow-hidden shadow-lg">
+            <img src={cookieTeamImg} alt="USIN Foundation team discussing data privacy policies" className="w-full h-64 object-cover" loading="lazy" />
+          </div>
+          <div className="rounded-2xl overflow-hidden shadow-lg">
+            <img src={cookiePrivacyImg} alt="Professional reviewing privacy and cookie settings" className="w-full h-64 object-cover" loading="lazy" />
+          </div>
         </motion.div>
 
         {/* Sections */}
